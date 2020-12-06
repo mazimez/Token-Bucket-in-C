@@ -21,7 +21,7 @@ int main()
 		}
 		count+=inp[i];
 		if(cap<count){
-		printf("\nThe packet is more then size of bucket this line is chaged too\n");
+		printf("\nThe packet is more then size of bucket\n");
 		break;
 		}
 		if(token>=count){
